@@ -1,4 +1,4 @@
-package com.jasonmg.salepoison.util;
+package jason.common.util;
 
 import android.content.Context;
 import android.os.Environment;

@@ -1,4 +1,4 @@
-package com.jasonmg.salepoison.view;
+package jason.common.view;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;

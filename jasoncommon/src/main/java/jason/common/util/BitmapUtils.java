@@ -1,4 +1,4 @@
-package com.jasonmg.salepoison.util;
+package jason.common.util;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

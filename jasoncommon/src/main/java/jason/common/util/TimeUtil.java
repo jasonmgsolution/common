@@ -1,4 +1,4 @@
-package com.jasonmg.salepoison.util;
+package jason.common.util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
