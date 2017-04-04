@@ -20,7 +20,7 @@ allprojects {
 
 group='com.github.jasonmgsolution'
 archivesBaseName='common'
-version = '1.0'
+version = '1.02'
 
 android {
     compileSdkVersion 24
