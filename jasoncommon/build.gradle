@@ -15,8 +15,8 @@ allprojects {
     }
 }
 
-group='com.jason.common'
-archivesBaseName='library'
+group='com.jason'
+archivesBaseName='common'
 version = '1.0'
 
 android {
