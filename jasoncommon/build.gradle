@@ -16,7 +16,7 @@ allprojects {
     }
 }
 
-group='com.jason'
+group='jason'
 archivesBaseName='common'
 version = '1.0'
 
