@@ -4,8 +4,6 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import com.github.siyamed.shapeimageview.mask.PorterShapeImageView;
-
 /**
  * Created by jasonmg_0302 on 2016-05-27.
  */

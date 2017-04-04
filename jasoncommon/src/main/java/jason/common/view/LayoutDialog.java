@@ -10,7 +10,6 @@ import com.flyco.animation.FadeEnter.FadeEnter;
 import com.flyco.animation.FadeExit.FadeExit;
 import com.flyco.dialog.widget.base.BaseDialog;
 import com.jasonmg.salepoison.util.EditTextUtil;
-import com.orhanobut.logger.Logger;
 
 /**
  * Created by jasonmg_0302 on 2016-03-14.
