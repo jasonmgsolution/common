@@ -1,8 +1,8 @@
-package com.jasonmg.salepoison.view;
+package jason.common.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.support.v4.content.ContextCompat;
+import android.graphics.Color;
 import android.text.Layout;
 import android.text.Layout.Alignment;
 import android.text.Spannable;
@@ -13,11 +13,8 @@ import android.text.style.ForegroundColorSpan;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.jasonmg.salepoison.R;
-
 import java.util.ArrayList;
 import java.util.List;
-
 
 public class EllipsizingTextView extends TextView {
     private String ellipsisText = "  ...더보기";
@@ -130,7 +127,7 @@ public class EllipsizingTextView extends TextView {
             programmaticChange = true;
             try {
                 Spannable word = new SpannableString(workingText);
-                word.setSpan(new ForegroundColorSpan(ContextCompat.getColor(getContext(), R.color.gray_7)), word.length() -getEllipsisText().length() , word.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                word.setSpan(new ForegroundColorSpan(Color.parseColor("#777777")), word.length() -getEllipsisText().length() , word.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
                 setText(word);
             } finally {
                 programmaticChange = false;

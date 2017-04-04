@@ -1,4 +1,4 @@
-package com.jasonmg.salepoison.view;
+package jason.common.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -7,8 +7,7 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.jasonmg.salepoison.R;
-
+import jason.common.R;
 
 /**
  * Created by stadiko on 6/23/15.
