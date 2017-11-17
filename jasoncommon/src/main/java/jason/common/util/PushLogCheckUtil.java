@@ -19,14 +19,14 @@ import java.util.Date;
 public class PushLogCheckUtil {
 
     // 푸시 로그 텍스트 파일로 downloads 에 저장
-    public static void logOutPut(Bundle data){
+    public static void logOutPut(String appName, Bundle data){
         Date date = new Date(System.currentTimeMillis());
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String dirPath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).getAbsolutePath();
 
         String pushLog = sdf.format(date) + "\n" + data.toString().substring(6);
 
-        File file = new File(dirPath + "/androidPushLog_simsale.txt");
+        File file = new File(dirPath + "/androidPushLog_"+ appName +".txt");
         Log.e("file Path ::", file.getAbsolutePath());
 
         try {
