@@ -3,6 +3,8 @@ apply plugin: 'com.github.dcendents.android-maven'
 
 buildscript {
     repositories {
+        jcenter()
+        google()
         mavenCentral()
     }
     dependencies {
@@ -15,12 +17,14 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven { url 'https://jitpack.io' }
+        maven { url "https://maven.google.com" }
     }
 }
 
 group='com.github.jasonmgsolution'
 archivesBaseName='common'
-version = '1.16'
+version = '1.17'
 
 android {
     compileSdkVersion 25
