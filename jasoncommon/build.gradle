@@ -6,7 +6,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.0'
+        classpath 'com.android.tools.build:gradle:3.1.0'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
     }
 }
@@ -20,18 +20,17 @@ allprojects {
 
 group='com.github.jasonmgsolution'
 archivesBaseName='common'
-version = '1.15'
+version = '1.16'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "25.0.0"
+    compileSdkVersion 25
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 23
+        targetSdkVersion 25
 //        versionCode 1
 //        versionName "1.0"
-//
 //        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 ////
     }
@@ -47,12 +46,15 @@ dependencies {
     //    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
     //        exclude group: 'com.android.support', module: 'support-annotations'
     //    })
-    compile 'com.android.support:appcompat-v7:23.4.0'
-    //    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:support-v4:23.4.0'
-
-    compile 'com.github.bumptech.glide:glide:3.7.0'
-    compile 'jp.wasabeef:glide-transformations:2.0.1'
-    compile 'com.flyco.dialog:FlycoDialog_Lib:1.2.6@aar'
+    implementation 'com.android.support:support-v4:25.2.0'
+    implementation 'com.android.support:appcompat-v7:25.2.0'
+    implementation 'com.android.support:animated-vector-drawable:25.2.0'
+    implementation 'com.android.support:design:25.2.0'
+    implementation 'com.android.support:cardview-v7:25.2.0'
+    implementation 'com.android.support:recyclerview-v7:25.2.0'
+    implementation 'com.android.support:design:25.2.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'jp.wasabeef:glide-transformations:2.0.1'
+    implementation 'com.flyco.dialog:FlycoDialog_Lib:1.2.6@aar'
 
 }
